@@ -3,7 +3,7 @@
 ### 3주차 git   
 
 ### 이미지   
-[]
+![kau](https://user-images.githubusercontent.com/121751509/227792911-0413c631-2008-4cac-8a98-69d7e8b2df42.png)   
 
 ### 링크   
 [LMS](https://lms.kau.ac.kr/login.php)   
