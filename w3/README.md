@@ -6,7 +6,7 @@
 []
 
 ### 링크   
-[LMS](lms.kau.ac.kr)   
+[LMS](https://lms.kau.ac.kr/login.php)   
 
 ### ProGit 링크   
 
