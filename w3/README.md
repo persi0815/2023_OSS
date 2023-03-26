@@ -9,6 +9,34 @@
 [LMS](https://lms.kau.ac.kr/login.php)   
 
 ### ProGit 링크   
+[ProGit](https://git-scm.com/book/ko/v2)   
+
+### 2주차 숙제
+```
+#!/usr/bin/env bash
+echo "----------"
+echo "name :"
+
+echo
+
+echo "----------"
+echo "student id :"
 
 
+file_path=`find /home/kau2/ -name w2_homework.txt 2> /dev/null`
+echo "----------"
+echo
+echo "file path :"
+echo $file_path
+echo
 
+line_num=`wc -l $file_path | cut -c 1 -`
+echo "----------"
+echo "line number :"
+echo $line_num
+echo
+
+echo "----------"
+echo "lask line :"
+tail -n 1 $file_path
+```
