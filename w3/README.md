@@ -24,10 +24,7 @@
 * status
 * log
     * 예) git log --oneline --decorate --graph --all
-
 ------
->>>>>>> 7a229bc603d52f30584e69fbbb9703e6bf1f59d8
-
 ### 2주차 숙제
 ```
 #!/usr/bin/env bash
