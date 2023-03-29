@@ -1,18 +1,13 @@
 # 2023_OSS   
 ## 2023 OSS 수업   
 ------
-
 ### 3주차 git   
-
 ### 이미지   
 ![kau](https://user-images.githubusercontent.com/121751509/227792911-0413c631-2008-4cac-8a98-69d7e8b2df42.png)   
-
 ### 링크   
 [LMS](https://lms.kau.ac.kr/login.php)   
-
 ### ProGit 링크   
 [ProGit](https://git-scm.com/book/ko/v2) 
-
 ##### 주요 git 명령어
 * add : 파일을 추적 대상으로 포함시킬 때, 또는 커밋 대상으로 포함시킬 때 사용
     * 예) git add <file name>
@@ -30,58 +25,30 @@
 #!/usr/bin/env bash
 echo "----------"
 echo "name :"
-
 echo
-
 echo "----------"
 echo "student id :"
-
-<<<<<<< HEAD
-
 file_path=`find /home/kau2/ -name w2_homework.txt 2> /dev/null`
 echo "----------"
 echo
 echo "file path :"
 echo $file_path
 echo
-
 line_num=`wc -l $file_path | cut -c 1 -`
 echo "----------"
 echo "line number :"
 echo $line_num
 echo
-
 echo "----------"
 echo "lask line :"
 tail -n 1 $file_path
 ```
-=======
-
-file_path=`find /home/kau2/ -name w2_homework.txt 2> /dev/null`
-echo "----------"
-echo
-echo "file path :"
-echo $file_path
-echo
-
-line_num=`wc -l $file_path | cut -c 1 -`
-echo "----------"
-echo "line number :"
-echo $line_num
-echo
-
-echo "----------"
-echo "lask line :"
-tail -n 1 $file_path
-```
-
 ## 마크다운
 ### 목록
 #### 번호 있는 목록 : 내림차순 정렬
 1. 첫번째
 3. 세번째
 2. 두번째
-
 #### 번호 없는 목록 : *, -, +
 * 첫번째
 - 세번째
@@ -90,11 +57,9 @@ tail -n 1 $file_path
 * 빨강
   * 녹색
     * 파랑
-
 ### 강조
 *single asterisks*    
 _single underscores_    
 **double asterisks**    
 __double underscores__    
 ~~cancelline~~    
->>>>>>> 7a229bc603d52f30584e69fbbb9703e6bf1f59d8
